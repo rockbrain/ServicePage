@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply flex bg-blue-700 w-[130px] h-[40px] text-sm  self-center text-center items-center hover:text-black border border-blue-700 hover:border-black hover:bg-gray-300 text-white font-bold p-2 rounded-md
+}
+.btn-gray {
+    @apply flex  bg-gray-200 w-[130px] h-[40px] text-sm self-center text-center items-center hover:bg-gray-300 border border-gray-400 text-black font-bold p-4 rounded-md
+}
+
+.btn-group {
+    @apply grid gap-4 grid-flow-col
+}
+
+.mobile-btn {
+  @apply px-2  self-center text-center items-center 
+}
+.tablet-card {
+    @apply mr-[30%]
+}
+
+@tailwind utilities;
+
+
+
+@layer base{
+   
+    li{
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+    .large-screens {
+        @apply px-32
+    }
+    .large-screens-responsive {
+        @apply px-32
+    }
+    .small-screens-responsive {
+        @apply px-4
+    }
+    
+}
+
+
