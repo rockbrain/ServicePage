@@ -19,42 +19,42 @@ const Job = () => {
  var Xm_Download_CV= 'Download CV';
  
   return (
-    <div className="md:mt-[150px] h-[fit] background-image  pb-8  grid place-items-center">
-            <div className='sm:grid-cols-4  grid grid-cols-1 sm:grid-flow-col w-[80%] lg:w-[70%] xl:w-[50%] min-w-[50%] sm:mt-12 mt-8 bg-slate-50 h-fit  p-4 rounded-md shadow-lg items-center  z-20'>
-               <p className=" flex justify-center col-span-1">
-               <img src={Image_head} className='w-[96px] p-2'></img>  
-               </p> 
-              <div className='col-span-2 '>
-              <h1 className="text-center">Software Developer. Jobs!!!!!!s</h1>
-              <p className="text-center  p-2 text-xs max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 ">I specialize in UI/UX & Graphic Design and 
-                my passion is all about building elegant and 
-                professional user interfaces and websites.</p>
-          
-              </div>
-                <div className=' btn-group grid-flow-row large-mobile:grid-cols-2 place-items-center p-2'> 
-                <button class="btn mobile-btn">
-                  {Xm_Get_Quote}
-                    <img src={Arrow_up} className="ml-1 w-3"></img>
-                </button>
+    <div className="md:mt-[150px] h-[fit] background-image w-[100%] pb-8  grid place-items-center">
+        <div className='sm:grid-cols-4  grid grid-cols-1 sm:grid-flow-col w-[80%] lg:w-[70%] xl:w-[50%] min-w-[50%] sm:mt-12 mt-8 bg-slate-50 h-fit  p-4 rounded-md shadow-lg items-center  z-20'>
+            <p className=" flex justify-center col-span-1">
+            <img src={Image_head} className='w-[96px] p-2'></img>  
+            </p> 
+          <div className='col-span-2 '>
+          <h1 className="text-center">Software Developer. Jobs!!!!!!s</h1>
+          <p className="text-center  p-2 text-xs max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 ">I specialize in UI/UX & Graphic Design and 
+            my passion is all about building elegant and 
+            professional user interfaces and websites.</p>
+      
+          </div>
+            <div className=' btn-group grid-flow-row large-mobile:grid-cols-2 place-items-center p-2'> 
+            <button class="btn mobile-btn">
+              {Xm_Get_Quote}
+                <img src={Arrow_up} className="ml-1 w-3"></img>
+            </button>
 
-                <button class="btn-gray mobile-btn">
-                  {Xm_Download_CV}
-                    <img src={Download}className="   w-3 ml-1"></img>
-                </button>
- 
-                    </div>
-                
-                
-            </div>
-            <div className="container m-auto grid grid-flow-row md:grid-cols-3 md:grid-flow-col gap-8 mt-[50px] z-10 ">
-              <div className="edu">
+            <button class="btn-gray mobile-btn">
+              {Xm_Download_CV}
+                <img src={Download}className="   w-3 ml-1"></img>
+            </button>
+
+                </div>
+            
+            
+        </div>
+            <div className="container m-auto grid grid-flow-row md:grid-cols-3 md:grid-flow-col gap-8 mt-[50px] z-10 w-[90%]">
+              <div className="edu m-auto w-[90%]">
                   <div className=" pb-4 flex w-fit font-bold text-sm text-blue-500">
                       <div class=" bg-[#0062FF] my-auto  w-10 h-px "></div> 
                       <h2 className='p-2 text-xs'> EDUCATION</h2>
                   </div>
               <JobsComponent/>
               </div>
-                <div className="work">
+                <div className="work m-auto w-[90%]">
                     <div className=" pb-4 flex w-fit font-bold text-sm text-red-500">
                         <div class=" bg-red-500 my-auto  w-10 h-px "></div> 
                         <h2 className='p-2 text-xs'> WORK</h2>
@@ -62,7 +62,7 @@ const Job = () => {
               <JobsComponent/>
               </div>
 
-              <div className="tools">
+              <div className="tools m-auto w-[90%]">
                   <div className="pb-2 flex w-fit font-bold text-sm text-green-500">
                           <div class=" bg-green-500 my-auto  w-10 h-px "></div> 
                           <h2 className='p-2 text-xs'> TOOLS</h2>

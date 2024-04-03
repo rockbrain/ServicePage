@@ -8,9 +8,9 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div className="small-screens-responsive sm:large-screens-responsive w-[100%]  h-[fit] background-image pb-8 items-center">
+    <div className=" sm:large-screens-responsive w-[100%] px-[10%]  h-[fit] background-image pb-8 items-center">
       <div className="flex items-center justify-center pt-4">
-        <div className='z-40 grid items-center place-items-center place-content-center m-auto justify-center'> 
+        <div className='z-40 grid items-center place-items-center place-content-center m-auto justify-center pb-8'> 
         <h1 className="text-center m-auto pb-4 text-2xl/8  lg:pt-8">SERVICES I PROVIDE</h1>
           <p className="text-center m-auto w-[100%] max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"> 
            I bring a passion for creating dynamic and visually appealing websites.
@@ -20,7 +20,7 @@ const Skill = () => {
         </div>
      
       </div>
-        <div className="grid  lg:pt-[35px]  gap-8  items-center  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 grid-cols-1">
+        <div className="grid  lg:pt-[35px]  gap-16  items-center  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 grid-cols-1">
             <div className="card  h-fit md:h-[200px]  bg-white px-6 pt-6 pb-2  rounded-md shadow-lg transform hover:scale-105 transition duration-500">
               <img src={icon} alt="card_icon" />
               <h1>Web Development</h1>

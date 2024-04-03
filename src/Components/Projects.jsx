@@ -1,11 +1,15 @@
 
+import WorkProcess from '../Components/WorkProcess'
 import React from 'react'
 
 const Projects = () => {
   return (
-            <div class="small-screens-responsive py-16 bg-purple-200">  
+            <div class="small-screens-responsive py-8 bg-purple-200">  
+                
+
                 <div class="container m-auto  text-gray-500 xl:px-0">
-                    <div class="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3 p-8">
+                <WorkProcess/>
+                    <div class="mx-auto grid pt-8 w-[90%] gap-6 md:w-3/4 lg:w-full lg:grid-cols-3 ">
                       
                         <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
                             <div class="mb-12 space-y-4">
@@ -15,7 +19,7 @@ const Projects = () => {
                             </div>
                             <img class="rounded-md h-48 max-h-48 w-full" src="https://rabiulislam.dev/documents/images/portfolio/ecommerce.jpg" />
                     
-                            </div>
+                        </div>
                         <div class="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
                             <div class="mb-12 space-y-4">
                                 <h3 class="text-2xl font-semibold text-purple-900">UI Design</h3>

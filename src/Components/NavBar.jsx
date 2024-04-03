@@ -1,15 +1,15 @@
 import React, {useState} from 'react';
-import Smiley from '../assets/Smiley.svg';
+import logo from '../assets/logo-rockys.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Howard from '../assets/Howard.svg';
 const navbar = () => {
     const [nav, setNav] =useState (false)
     const handleClick = () => setNav(!nav)
   return (
-   <div className="small-screens-responsive container m-auto  w-auto h-[80px] flex justify-between items-center ">
-        <div className='flex'>
-            <img src={Smiley} alt="logo image" style={{width:'50px'}}/>
-            <h1 className='text-4xl p-4'>ROCKY</h1>
+   <div className="small-screens-responsive container m-auto  w-auto sm:h-[40%] h-[80px] flex justify-between items-center sm:px-16 ">
+        <div className='flex pt-8'>
+            <img className='w-20 sm:w-40' src={logo} alt="logo image"/>
+            
         </div>
         {/*menu items*/}
             <ul className="hidden lg:flex justify-between items-center  text-gray-300 ">

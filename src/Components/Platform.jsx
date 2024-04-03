@@ -6,7 +6,7 @@ import Vector from '../assets/Vector.svg';
 import Vector1 from '../assets/Vector1.svg';
 const platform = () =>{
     return(
-        <div className="grid-flow-row sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left small-screens-responsive container m-auto  justify-items-start mt-4 grid gap-4">
+        <div className="grid-flow-row sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left px-[10%] container mx-auto  justify-items-start grid gap-4">
             
             <div className="row-span-1 col-span-1 ">
                 <h1 className='text-2xl text pb-2'>I work with 524+ big companies worldwide. Platform !!!!</h1>

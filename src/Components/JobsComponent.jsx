@@ -9,7 +9,7 @@ const n = 3;
 
  function JobsComponent() {
   return [...Array(n)].map((e, i) => <span key={i}>
-    <div className="small-screens-responsive container m-auto  job_profile_details grid grid-flow-row ">
+    <div className=" container m-auto  job_profile_details grid grid-flow-row ">
     <p className="flex text-blue-500 "><p className="p-1">{year}</p><h1 className="p-1">-</h1><p className="p-1 ">{end_year}</p> <h1 className="p-1">*</h1><p className="p-1">{country}</p> </p>
     <h1 className="flex">{title}</h1>
     <p className="flex">{description}</p>
