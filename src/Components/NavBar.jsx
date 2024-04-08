@@ -6,8 +6,8 @@ const navbar = () => {
     const [nav, setNav] =useState (false)
     const handleClick = () => setNav(!nav)
   return (
-   <div className="small-screens-responsive container m-auto  w-auto sm:h-[40%] h-[80px] flex justify-between items-center sm:px-16 ">
-        <div className='flex pt-8'>
+   <div className="small-screens-responsive container m-auto mt-3  sm:ml-8 sm:mt-16 w-auto sm:h-[40%] h-[80px] flex justify-between items-center sm:px-16 ">
+        <div className='flex ml-2 pt-8'>
             <img className='w-20 sm:w-40' src={logo} alt="logo image"/>
             
         </div>

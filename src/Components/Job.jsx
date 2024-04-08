@@ -21,12 +21,12 @@ const Job = () => {
   return (
     <div className="md:mt-[150px] h-[fit] background-image w-[100%] pb-8  grid place-items-center">
         <div className='sm:grid-cols-4  grid grid-cols-1 sm:grid-flow-col w-[80%] lg:w-[70%] xl:w-[50%] min-w-[50%] sm:mt-12 mt-8 bg-slate-50 h-fit  p-4 rounded-md shadow-lg items-center  z-20'>
-            <p className=" flex justify-center col-span-1">
+            <p className=" flex justify-center p-2 col-span-1">
             <img src={Image_head} className='w-[96px] p-2'></img>  
             </p> 
           <div className='col-span-2 '>
-          <h1 className="text-center">Software Developer. Jobs!!!!!!s</h1>
-          <p className="text-center  p-2 text-xs max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 ">I specialize in UI/UX & Graphic Design and 
+          <h3 className="text-center font-bold text-blue-900">Software Developer</h3>
+          <p className="text-center  p-2 max-w-2xl mb-2 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 ">I specialize in UI/UX & Graphic Design and 
             my passion is all about building elegant and 
             professional user interfaces and websites.</p>
       
@@ -50,14 +50,14 @@ const Job = () => {
               <div className="edu m-auto w-[90%]">
                   <div className=" pb-4 flex w-fit font-bold text-sm text-blue-500">
                       <div class=" bg-[#0062FF] my-auto  w-10 h-px "></div> 
-                      <h2 className='p-2 text-xs'> EDUCATION</h2>
+                      <h2 className='p-2 font-bold text-blue-900'> EDUCATION</h2>
                   </div>
               <JobsComponent/>
               </div>
                 <div className="work m-auto w-[90%]">
                     <div className=" pb-4 flex w-fit font-bold text-sm text-red-500">
                         <div class=" bg-red-500 my-auto  w-10 h-px "></div> 
-                        <h2 className='p-2 text-xs'> WORK</h2>
+                        <h2 className='p-2 font-bold text-red-500'> WORK</h2>
                     </div>
               <JobsComponent/>
               </div>
@@ -65,7 +65,7 @@ const Job = () => {
               <div className="tools m-auto w-[90%]">
                   <div className="pb-2 flex w-fit font-bold text-sm text-green-500">
                           <div class=" bg-green-500 my-auto  w-10 h-px "></div> 
-                          <h2 className='p-2 text-xs'> TOOLS</h2>
+                          <h2 className='p-2 font-bold text-green-500 '> TOOLS</h2>
                   </div>  
               <div className="flex justify-center flex-auto flex-wrap ">
                 <div className="bg-white p-4 w-[100px] m-[4%] h-[100px]"><img src={Tool} className="min-w-[70px] w-[70px] h-[70px]bg-slate-200 "></img></div>
