@@ -1,22 +1,22 @@
 import React, {useState} from 'react';
-import logo from '../assets/logo-rockys.png';
+import logo from '../assets/logo-new.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Howard from '../assets/Howard.svg';
 const navbar = () => {
     const [nav, setNav] =useState (false)
     const handleClick = () => setNav(!nav)
   return (
-   <div className="small-screens-responsive container m-auto mt-3  sm:ml-8 sm:mt-16 w-auto sm:h-[40%] h-[80px] flex justify-between items-center sm:px-16 ">
+   <div className="small-screens-responsive container m-auto mt-3  sm:ml-8 sm:mt-16 w-auto sm:h-[40%] h-[80px] flex justify-between items-center sm:pl-16 ">
         <div className='flex ml-2 pt-8'>
             <img className='w-20 sm:w-40' src={logo} alt="logo image"/>
             
         </div>
         {/*menu items*/}
-            <ul className="hidden lg:flex justify-between items-center  text-gray-300 ">
+            <ul className="hidden lg:flex justify-end items-center  text-black-300 text-xl ">
                 <li> Home</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <button className='bg-gradient-to-r from-[#9249F2] to-[#FF5F49] p-2 rounded text-md'>rockbrain700@gmail.com</button>
+                <button className='bg-gradient-to-r from-[#9249F2] to-[#FF5F49] p-2 rounded text-md  text-gray-300 '>rockbrain700@gmail.com</button>
             </ul>
 
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>

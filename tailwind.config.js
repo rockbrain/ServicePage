@@ -60,10 +60,7 @@ export default {
       'Noto Color Emoji'
     ]
       },
-        backgroundImage: {
-          'skill-bg': "url('../assets/unsplash.jpg')",
-          
-        }
+        
       },
     },
     plugins: [],

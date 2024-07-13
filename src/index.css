@@ -15,9 +15,7 @@
 .mobile-btn {
   @apply px-2  self-center text-center items-center 
 }
-.tablet-card {
-    @apply mr-[30%]
-}
+
 
 @tailwind utilities;
 
@@ -30,15 +28,15 @@
         @apply cursor-pointer;
     }
     .large-screens {
-        @apply px-32
+        @apply px-16
     }
     .large-screens-responsive {
-        @apply px-32
+        @apply px-16
     }
     .small-screens-responsive {
         @apply px-4
     }
     
+ 
 }
-
 
