@@ -2,10 +2,10 @@
 @tailwind components;
 
 .btn {
-    @apply flex bg-blue-700 w-[130px] h-[40px] text-sm  self-center text-center items-center hover:text-black border border-blue-700 hover:border-black hover:bg-gray-300 text-white font-bold p-2 rounded-md
+    @apply flex py-4 bg-primary-800 w-[130px] h-[48px] text-sm  self-center text-center items-center hover:text-black border border-blue-700 hover:border-black hover:bg-gray-300 text-white font-bold rounded-md
 }
 .btn-gray {
-    @apply flex  bg-gray-200 w-[130px] h-[40px] text-sm self-center text-center items-center hover:bg-gray-300 border border-gray-400 text-black font-bold p-4 rounded-md
+    @apply flex py-4  bg-gray-200 w-[130px] h-[48px] text-sm self-center text-center items-center hover:bg-gray-300 border border-gray-400 text-black font-bold p-4 rounded-md
 }
 
 .btn-group {
@@ -13,9 +13,11 @@
 }
 
 .mobile-btn {
-  @apply px-2  self-center text-center items-center 
+  @apply p-4 pl-4  self-center text-center items-center 
 }
-
+p{
+    @apply font-light text-gray-500 sm:text-lg lg:text-xl 
+}
 
 @tailwind utilities;
 

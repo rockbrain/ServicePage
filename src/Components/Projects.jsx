@@ -4,7 +4,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-            <div class="small-screens-responsive py-8 bg-purple-200">  
+            <div class="small-screens-responsive py-8">  
                 
 
                 <div class="container m-auto  text-gray-500 xl:px-0">

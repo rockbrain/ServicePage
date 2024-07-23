@@ -38,17 +38,17 @@ const WorkProcess = () =>{
                </div>
                 <div className="flex justify-center flex-auto flex-wrap ">
             
-                    <div className="flex justify-start rounded-md mb-2  items-center mr-4 w-[220px] bg-[#F5F6F7] h-[50px]">
-                        <p class=" pl-4">🤝 1. Project Introduction</p>
+                    <div className="flex justify-center rounded-md mb-2  items-center mr-2 w-[300px] bg-[#F5F6F7] h-[50px] p-4">
+                        <p class="">🤝 1. Project Introduction</p>
                     </div>
-                    <div className="flex justify-start rounded-md mb-2  items-center mr-4 w-[220px] bg-[#F5F6F7] h-[50px]">
-                        <p class="pl-4 ">🖌️ 2. Visual Design</p>
+                    <div className="flex justify-center rounded-md mb-2  items-center mr-2 w-[300px] bg-[#F5F6F7] h-[50px] p-4">
+                        <p class="">🖌️ 2. Visual Design</p>
                     </div>
-                    <div className="flex justify-start rounded-md mb-2  items-center mr-4  w-[220px] bg-[#F5F6F7] h-[50px]">
-                        <p class="pl-4">💻️ 3. Webflow Development</p>
+                    <div className="flex justify-center rounded-md mb-2  items-center mr-2 w-[300px] bg-[#F5F6F7] h-[50px] p-4">
+                        <p class="">💻️ 3. Webflow Design</p>
                     </div>
-                    <div className="flex justify-start  rounded-md mb-2 items-center mr-4 w-[220px]  bg-[#F5F6F7] h-[50px]  ">
-                        <p class="pl-4">👍️ 3. Revision & Delivery</p>
+                    <div className="flex justify-center  rounded-md mb-2 items-center mr-2 w-[300px]  bg-[#F5F6F7] h-[50px]  p-4">
+                        <p class="">👍️ 3. Revision & Delivery</p>
                     </div>
                 </div>
             </div>

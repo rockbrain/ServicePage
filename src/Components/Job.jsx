@@ -15,11 +15,11 @@ import Photoshop from '../assets/Photoshop.svg'
 import JobsComponent from './JobsComponent'
 
 const Job = () => {
- var Xm_Get_Quote= 'Get a Quote';
+ var Xm_Get_Quote= 'View Projects';
  var Xm_Download_CV= 'Download CV';
  
   return (
-    <div className=" h-[fit] bg-red-100 w-[100%] pb-8  grid place-items-center">
+    <div className="px-[5 %]  sm:py-[5%] container m-auto h-[fit] w-[100%] pb-8  grid place-items-center">
         <div className='sm:grid-cols-4  grid grid-cols-1 sm:grid-flow-col w-[80%] lg:w-[70%] xl:w-[50%] min-w-[50%] sm:mt-12 mt-8 mb-8 bg-slate-50 h-fit  p-4 rounded-md shadow-lg items-center  z-20'>
             <p className=" flex justify-center p-2 col-span-1">
             <img src={Image_head} className='w-[96px] p-2'></img>  

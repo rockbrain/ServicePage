@@ -6,20 +6,22 @@ import Vector from '../assets/Vector.svg';
 import Vector1 from '../assets/Vector1.svg';
 const platform = () =>{
     return(
-        <div className="grid-flow-row sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left px-[10%]  sm:p-[4%]  container mx-auto  justify-items-start grid gap-4">
-            
+        <div className="sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left px-[10%]  container m-auto justify-items-start grid gap-x-20">
+            <div className=''>
             <div className="row-span-1 col-span-1 ">
-                <h1 className='text-2xl text pb-2'>I work with 524+ big companies worldwide. Platform !!!!</h1>
+                <h1 className=' text-2xl text pb-2'>I work with 524+ big companies worldwide. Platform !!!!</h1>
             </div>
                 <div className="sm:col-span-1 sm:row-span-1">
-                    <p className='pt-2   py-8 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400'> I enjoy  translating client requirements into responsive and user-friendly interfaces. 
+                    <p className='pt-2  max-w-2xl text-gray-500 '> I enjoy  translating client requirements into responsive and user-friendly interfaces. 
                         My expertise includes working with technologies such as HTML, CSS, JavaScript bootstrap, Scss Tailwind, J-query etc.
                         I am adept at collaborating with cross-functional teams to deliver high-quality solutions. 
                     </p>
                 </div>
+            </div>
+           
             
-                    <div className="sm:col-span-2 col-span-1 sm:row-span-2 ">
-                        <div class="[&>div]:p-4 grid grid-cols-3 w-[100%]">
+                    <div className=" justify-center  sm:col-span-2 col-span-1 sm:row-span-2 ">
+                        <div class="[&>div]:p-4 grid grid-cols-3 w-[100%] ">
                             <div className="hover:bg-blue-300 border-b-2"><img src={Company_logo}></img></div>
                             <div className="hover:bg-blue-300 border-l-2 border-b-2"><img src={Company_logo2}></img></div>
                             <div className="hover:bg-blue-300 border-l-2 border-b-2"><img src={Company_logo3}></img></div>
