@@ -19,7 +19,7 @@ const Job = () => {
  var Xm_Download_CV= 'Download CV';
  
   return (
-    <div className="px-[5 %]  sm:py-[5%] container m-auto h-[fit] w-[100%] pb-8  grid place-items-center">
+    <div className="px-[5 %] mt-4  sm:py-[5%] container m-auto h-[fit] w-[100%] pb-8  grid place-items-center">
         <div className='sm:grid-cols-4  grid grid-cols-1 sm:grid-flow-col w-[80%] lg:w-[70%] xl:w-[50%] min-w-[50%] sm:mt-12 mt-8 mb-8 bg-slate-50 h-fit  p-4 rounded-md shadow-lg items-center  z-20'>
             <p className=" flex justify-center p-2 col-span-1">
             <img src={Image_head} className='w-[96px] p-2'></img>  
@@ -46,7 +46,7 @@ const Job = () => {
             
             
         </div>
-            <div className="container m-auto grid grid-flow-row md:grid-cols-3 md:grid-flow-col gap-8 mt-[50px] z-10 w-[90%]">
+            <div className="container m-auto grid grid-flow-row md:grid-cols-3 md:grid-flow-col gap-8 z-10 w-[90%]">
               <div className="edu m-auto w-[90%]  h-[100%]  bg-slate-50 p-4 rounded-md shadow-lg">
                   <div className=" pb-8 flex w-fit font-bold text-sm text-blue-500">
                       <div class=" bg-[#0062FF] my-auto  w-10 h-px "></div> 
@@ -68,14 +68,14 @@ const Job = () => {
                           <h2 className='p-2 font-bold text-green-500 '> TOOLS</h2>
                   </div>  
               <div className="flex justify-center sm:justify-left flex-wrap bg-slate-50 ">
-                <div className=" w-[100px] h-[90px]"><img src={Tool} className="min-w-[70px] w-[70px] h-[60px]bg-slate-200 "></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Figma} className="min-w-[70px] w-[70px] h-[60px]"></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Xd} className="min-w-[70px] w-[70px] h-[60px] "></img></div>
-                <div className=" w-[100px] h-[90p x]"><img src={Ai} className="min-w-[70px] w-[70px] h-[60px] "></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Webflow} className="min-w-[70px] w-[70px] h-[60px]"></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Sketch} className="min-w-[70px] w-[70px] h-[60px]"></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Norton} className="min-w-[70px] w-[70px] h-[60px]"></img></div>
-                <div className=" w-[100px] h-[90px]"><img src={Photoshop} className="min-w-[70px] w-[70px] h-[60px]"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Tool} className="min-w-[70px] w-[70px] h-[60px]bg-slate-200 m-auto justify-center"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Figma} className="min-w-[70px] w-[70px] h-[60px] justify-center m-auto"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Xd} className="min-w-[70px] w-[70px] h-[60px] justify-center m-auto"></img></div>
+                <div className=" w-[100px] h-[90p x]"><img src={Ai} className="min-w-[70px] w-[70px] h-[60px] m-auto "></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Webflow} className="min-w-[70px] w-[70px] h-[60px] m-auto"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Sketch} className="min-w-[70px] w-[70px] h-[60px] m-auto"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Norton} className="min-w-[70px] w-[70px] h-[60px] m-auto"></img></div>
+                <div className=" w-[100px] h-[90px]"><img src={Photoshop} className="min-w-[70px] w-[70px] h-[60px] m-auto"></img></div>
                 
                 </div>
               

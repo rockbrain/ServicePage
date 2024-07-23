@@ -6,10 +6,10 @@ import Vector from '../assets/Vector.svg';
 import Vector1 from '../assets/Vector1.svg';
 const platform = () =>{
     return(
-        <div className="sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left px-[10%]  container m-auto justify-items-start grid gap-x-20">
+        <div className="sm:grid-flow-col sm:grid-cols-2 sm:grid-rows-1 text-left px-[10%]  container m-auto justify-items-start grid gap-6 gap-x-20">
             <div className=''>
-            <div className="row-span-1 col-span-1 ">
-                <h1 className=' text-2xl text pb-2'>I work with 524+ big companies worldwide. Platform !!!!</h1>
+            <div className="row-span-1 col-span-1 mb-2">
+                <h1 className=' text-2xl text sm:pb-2'>I work with 524+ big companies worldwide. Platform !!!!</h1>
             </div>
                 <div className="sm:col-span-1 sm:row-span-1">
                     <p className='pt-2  max-w-2xl text-gray-500 '> I enjoy  translating client requirements into responsive and user-friendly interfaces. 

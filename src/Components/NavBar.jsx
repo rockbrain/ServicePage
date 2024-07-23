@@ -19,7 +19,7 @@ const navbar = () => {
                 <li> Home</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                <button className='bg-primary-800 p-2 ml-4 rounded text-xs  text-white '>Download CV</button>
+                <button className='border-primary-800 border-2 p-2 ml-4 rounded text-xs  text-gray-500'>Download CV</button>
             </ul>
 
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'}>
@@ -30,7 +30,7 @@ const navbar = () => {
         </ul>
         
         {/*Humberger Menu*/}
-        <div onClick={handleClick} className="lg:hidden z-10">
+        <div onClick={handleClick} className="lg:hidden z-10 float-right">
             {!nav ? <FaBars/> : <FaTimes/> }
         </div>
         </div>
